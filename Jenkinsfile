@@ -13,7 +13,7 @@ pipeline{
         }
         stage('clone'){
             steps{
-                git 'https://github.com/VootlaSaiCharan/chatroom.git'
+                git 'https://github.com/ManishaBamin/chatroom.git'
             }
         }
         stage('compile'){
